@@ -1,0 +1,67 @@
+struct weapon
+	{
+		int id;
+		int tid;
+		float moveup;
+		float moveleft;
+		float movefor;
+		float xrot;
+		float yrot;
+		float zrot;
+		char* modelfile;
+		char* textfile;
+		float damage;
+		float sc;
+		float bobang;
+		float bobhgt;
+		float bobmov;
+		float bobspd;
+		float muzright;
+		float muzup;
+		float muzfor;
+		int mid;
+		int mtx;
+		float scopefov;
+	};
+
+	struct actor
+	{
+		unsigned long tm_last;
+		int tm_difference;
+		float tm_factor;
+		float tm_result;
+		unsigned long tm_timer;
+		float sx;
+		float sz;
+		int id;
+		int gunlimb;
+		int gunmesh;
+		int rtimer;
+		int stimer;
+		int vtimer;
+		float gravity;
+		float slope;
+		int ground;
+		int jumptimer;
+		float vx;
+		float vy;
+		float vz;
+		float x;
+		float y;
+		float z;
+		float angy;
+		float radius;
+		int collide;
+		float ny;
+		float oldx;
+		float oldy;
+		float oldz;
+		float gunbobang;
+		float gunbobhgt;
+		float gunbobmov;
+		float gunbobspd;
+		float gunlookang;
+		float gunturnang;
+		int usinggun;
+		int lightid;
+	};
